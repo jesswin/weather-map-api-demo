@@ -60,7 +60,7 @@ class _DaySelectorState extends State<DaySelector> {
                             height: 10,
                           ),
                           Text(
-                            "Sunset: " +
+                            "Sunrise: " +
                                 convertTime(
                                     widget.data["daily"][index]["sunrise"]),
                             style: TextStyle(fontSize: 12),
@@ -69,7 +69,7 @@ class _DaySelectorState extends State<DaySelector> {
                             height: 10,
                           ),
                           Text(
-                            "Sunrise: " +
+                            "Sunset: " +
                                 convertTime(
                                     widget.data["daily"][index]["sunset"]),
                             style: TextStyle(fontSize: 12),
